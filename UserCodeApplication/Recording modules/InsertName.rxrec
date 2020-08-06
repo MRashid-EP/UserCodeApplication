@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d6e541ca-d8f1-434f-9c7d-55e742ae85b1"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InsertName"
+	namespace="UserCodeApplication.Recording_modules">
+	</codegen>
+	<variables>
+		<var
+		id="e62d186f-3af5-4ff4-9341-fadf781afedb"
+		name="varName">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="InsertName"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="InsertTheName"
+		namespace="UserCodeApplication.Recording_modules"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="fe15ca32-6dc9-4e73-b3d1-2aa8306a388b">
+				<argument
+				argname="textInfo"
+				id="937aa925-8ab5-4099-a915-47cb2a284ad3">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="0786c3f4-7cae-4ee5-98a4-135409733494"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="myName"
+				id="77f4de5b-72de-41b1-a6aa-8fddcdcf7c2c"
+				variable="varName">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="e66d9a44-2831-4de4-91a8-cdc6f49b8f80"
+	name="UserCodeApplicationRepository"
+	relativepath="..\UserCodeApplicationRepository.rxrep">
+		<codegen
+		classname="UserCodeApplicationRepository"
+		namespace="UserCodeApplication">
+		</codegen>
+		<rootfolder
+		id="f6b112c9-367b-41e2-b7ba-2fb262f34f99"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InsertName.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

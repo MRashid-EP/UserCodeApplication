@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3ae1fc9d-8fab-4711-8a4e-91b1d24c8666"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="UserCodeApplication.Recording_modules">
+	</codegen>
+	<variables>
+		<var
+		id="9e1041df-5ff2-45b1-a7cf-1079e62b9ed7"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\mrashid\Desktop\RxDemoApp.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="e66d9a44-2831-4de4-91a8-cdc6f49b8f80"
+	name="UserCodeApplicationRepository"
+	relativepath="..\UserCodeApplicationRepository.rxrep">
+		<codegen
+		classname="UserCodeApplicationRepository"
+		namespace="UserCodeApplication">
+		</codegen>
+		<rootfolder
+		id="f6b112c9-367b-41e2-b7ba-2fb262f34f99"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="UserCodeApplication"
+      id="904440a4-988b-4cd0-a731-97260b7cb121"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="UserCodeApplication"
+      id="904440a4-988b-4cd0-a731-97260b7cb121"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

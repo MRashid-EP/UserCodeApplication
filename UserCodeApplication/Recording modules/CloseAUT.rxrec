@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="544e9f55-8058-4e19-85ab-918eefef05b6"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="UserCodeApplication.Recording_modules">
+	</codegen>
+	<variables>
+		<var
+		id="98f72afa-fb29-450c-8538-0832533f6e04"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="a81d4078-ecea-4ba4-8bfe-4a61438aeb76">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="e66d9a44-2831-4de4-91a8-cdc6f49b8f80"
+	name="UserCodeApplicationRepository"
+	relativepath="..\UserCodeApplicationRepository.rxrep">
+		<codegen
+		classname="UserCodeApplicationRepository"
+		namespace="UserCodeApplication">
+		</codegen>
+		<rootfolder
+		id="f6b112c9-367b-41e2-b7ba-2fb262f34f99"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

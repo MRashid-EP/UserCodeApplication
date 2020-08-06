@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="63e72d99-3f12-4191-8fdf-bf34f2f17c2e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BtnReset"
+	namespace="UserCodeApplication.Recording_modules">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="17;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7d04d2c2-3958-4304-bc5b-08a73f3f0711"
+		sx="958"
+		sy="566"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bb095f79-99e0-4a0c-996d-d81ed38e0cf5"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="link"
+				rect="941,559,28,15"
+				role="link"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						Reset
+					</attribute>
+					<attribute
+					name="url"
+					type="System.String">
+						Reset
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Click
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Reset
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Link
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						Reset
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/link[@controlname='RxLinkBtnReset']/?/?/link[@accessiblename='Reset']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="66bd328e-7392-4e47-a1b4-bbc420ded1cd">
+				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
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="e66d9a44-2831-4de4-91a8-cdc6f49b8f80"
+	name="UserCodeApplicationRepository"
+	relativepath="..\UserCodeApplicationRepository.rxrep">
+		<codegen
+		classname="UserCodeApplicationRepository"
+		namespace="UserCodeApplication">
+		</codegen>
+		<rootfolder
+		id="f6b112c9-367b-41e2-b7ba-2fb262f34f99"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BtnReset.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
